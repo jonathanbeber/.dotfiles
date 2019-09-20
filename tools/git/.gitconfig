@@ -1,0 +1,8 @@
+[commit]
+	gpgsign = true
+	template = ~/.dotfiles/tools/git/template.txt
+[user]
+	email = jonathanbeber@gmail.com
+	name = Jonathan Juares Beber
+[core]
+	editor = vim

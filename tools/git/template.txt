@@ -1,0 +1,22 @@
+# Subject/Title
+## - describe what is done; not the result
+## - use the active voice
+## - bad: server disconnects should cause dst client disconnects.
+## - good: Propagate disconnects from source to destination
+
+# Problem
+## Explain the context and why you're making that change. What is the
+## problem you're trying to solve? In some cases there is not a problem
+## and this can be thought of as being the motivation for your change.
+
+# Solution
+## Describe the modifications you've made.
+
+# Validation
+## Describe the testing you've done to validate your change.
+
+# Fixes #[GitHub issue ID]
+
+
+# Always 2 empty lines before Co-Authors
+#Co-authored-by: name <name@example.com>
