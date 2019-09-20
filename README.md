@@ -1,6 +1,6 @@
 # Jonathan Beber's .dotfiles
 
-This repository contain my personal `.dotfiles`. It's not supposed to be used by other.
+This repository contains my personal `.dotfiles`. It's not supposed to be used by other.
 
 # Initial setup
 
