@@ -6,3 +6,5 @@
 	name = Jonathan Juares Beber
 [core]
 	editor = vim
+[diff]
+	noprefix = true
