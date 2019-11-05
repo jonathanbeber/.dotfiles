@@ -8,6 +8,7 @@ source .bashrc
 
 # code directory
 test -d "${HOME}/Code" || mkdir "${HOME}/Code"
+test -d "${HOME}/Code/go" || mkdir "${HOME}/Code/go"
 
 # essentials
 sudo apt-get -y install \
@@ -21,6 +22,8 @@ sudo apt-get -y install \
 bash tools/git/install.sh
 bash tools/code/install.sh
 bash tools/rust/install.sh
+bash tools/python/install.sh
+bash tools/go/install.sh
 bash tools/terminator/install.sh
 bash tools/awscli/install.sh
 bash tools/docker/install.sh

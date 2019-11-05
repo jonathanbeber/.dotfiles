@@ -10,6 +10,8 @@ sudo apt-get -y install codium
 
 # Extensions
 codium --install-extension rust-lang.rust
+codium --install-extension ms-python.python
+codium --install-extension ms-vscode.go
 
 # configs
 _ln "$(pwd)/tools/code/settings.json" "${HOME}/.config/VSCodium/User/settings.json"
