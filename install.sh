@@ -16,7 +16,8 @@ sudo apt-get -y install \
     python3 \
     python3-pip \
     openjdk-8-jdk \
-    build-essential
+    build-essential \
+    gnome-tweak-tool
 
 # Install tools
 bash tools/git/install.sh
