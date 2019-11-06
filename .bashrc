@@ -8,7 +8,7 @@ alias c="cd ${HOME}/Code"
 
 alias apt="sudo apt-get"
 
-alias tkill="sudo kill -9 Telegram"
+alias tkill="sudo killall -9 Telegram"
 
 alias k=kubectl
 hostname | grep -qi zalando && alias k=zkubectl
