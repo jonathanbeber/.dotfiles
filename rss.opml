@@ -8,5 +8,11 @@
     <outline type="rss" xmlUrl="https://hnrss.org/frontpage" htmlUrl="https://news.ycombinator.com/" title="Hacker News: Front Page"/>
     <outline type="rss" xmlUrl="https://aws.amazon.com/blogs/containers/feed/" htmlUrl="https://aws.amazon.com/blogs/containers/" title="Containers"/>
     <outline type="rss" xmlUrl="https://www.sciencenews.org/feed" htmlUrl="https://www.sciencenews.org/" title="Science News"/>
+    <outline type="rss" xmlUrl="http://feeds.bbci.co.uk/news/world/rss.xml" htmlUrl="https://www.bbc.co.uk/news/" title="BBC News - World"/>
+    <outline type="rss" xmlUrl="https://www.newyorker.com/feed/everything" htmlUrl="https://www.newyorker.com/everything" title="Everything"/>
+    <outline type="rss" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml" htmlUrl="https://www.nytimes.com/" title="NYT &gt; Top Stories"/>
+    <outline type="rss" xmlUrl="https://www.wired.com/feed" htmlUrl="https://www.wired.com/latest" title="Feed: All Latest"/>
+    <outline type="rss" xmlUrl="https://www.oreilly.com/radar/feed/index.xml" htmlUrl="https://www.oreilly.com/radar" title="Radar"/>
+    <outline type="rss" xmlUrl="https://www.reutersagency.com/feed/" htmlUrl="https://www.reutersagency.com/en/" title="Reuters News Agency"/>
   </body>
 </opml>
