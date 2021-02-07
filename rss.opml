@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<opml version="1.0">
+  <head>
+    <title>newsboat - Exported Feeds</title>
+  </head>
+  <body>
+    <outline type="rss" xmlUrl="https://aws.amazon.com/about-aws/whats-new/recent/feed/" htmlUrl="https://aws.amazon.com/about-aws/whats-new/recent/" title="Recent Announcements"/>
+    <outline type="rss" xmlUrl="https://hnrss.org/frontpage" htmlUrl="https://news.ycombinator.com/" title="Hacker News: Front Page"/>
+    <outline type="rss" xmlUrl="https://aws.amazon.com/blogs/containers/feed/" htmlUrl="https://aws.amazon.com/blogs/containers/" title="Containers"/>
+    <outline type="rss" xmlUrl="https://www.sciencenews.org/feed" htmlUrl="" title=""/>
+  </body>
+</opml>
