@@ -14,5 +14,6 @@
     <outline type="rss" xmlUrl="https://www.wired.com/feed" htmlUrl="https://www.wired.com/latest" title="Wired"/>
     <outline type="rss" xmlUrl="https://www.oreilly.com/radar/feed/index.xml" htmlUrl="https://www.oreilly.com/radar" title="Oreilly Radar"/>
     <outline type="rss" xmlUrl="https://www.reutersagency.com/feed/" htmlUrl="https://www.reutersagency.com/en/" title="Reuter"/>
+    <outline type="rss" xmlUrl="https://www.reutersagency.com/feed/" htmlUrl="https://theconversation.com/articles.atom?language=en" title="The conversation"/>
   </body>
 </opml>
