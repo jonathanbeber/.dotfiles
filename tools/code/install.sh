@@ -13,6 +13,9 @@ sudo apt-get -y install codium
 codium --install-extension rust-lang.rust
 codium --install-extension ms-python.python
 codium --install-extension ms-vscode.go
+codium --install-extension travisthetechie.write-good-linter
+codium --install-extension patrykpeszko.vscode-proselint
+codium --install-extension  valentjn.vscode-ltex
 
 # configs
 _ln "$(pwd)/tools/code/settings.json" "${HOME}/.config/VSCodium/User/settings.json"
