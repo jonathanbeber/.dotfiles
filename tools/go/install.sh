@@ -1,18 +1,17 @@
 #!/bin/bash
 
 # go itself
-sudo add-apt-repository ppa:longsleep/golang-backports
 sudo apt-get update
 sudo apt-get install golang-go
 
 # gopls
-go get golang.org/x/tools/gopls@latest
+go install golang.org/x/tools/gopls@latest
 
 # required for codium plugin
-go get github.com/mdempsky/gocode
-go get github.com/uudashr/gopkgs/cmd/gopkgs
-go get github.com/ramya-rao-a/go-outline
-go get github.com/stamblerre/gocode
-go get github.com/rogpeppe/godef
-go get github.com/sqs/goreturns
-go get golang.org/x/lint/golint
+go install github.com/mdempsky/gocode@latest
+go install github.com/uudashr/gopkgs/cmd/gopkgs@latest
+go install github.com/ramya-rao-a/go-outline@latest
+go install github.com/stamblerre/gocode@latest
+go install github.com/rogpeppe/godef@latest
+go install github.com/sqs/goreturns@latest
+go install golang.org/x/lint/golint@latest
