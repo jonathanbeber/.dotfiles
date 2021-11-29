@@ -18,6 +18,7 @@ sudo apt-get -y install \
     python3-pip \
     openjdk-8-jdk \
     build-essential \
+    tlp tlp-rdw \
     gnome-tweaks
 
 # Install tools
