@@ -1,16 +1,17 @@
 [global_config]
 [keybindings]
   split_horiz = <Primary><Shift>d
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
+    scrollback_infinite = True
 [layouts]
   [[default]]
     [[[child1]]]
       parent = window0
       type = Terminal
+      profile = default
     [[[window0]]]
       parent = ""
       type = Window
 [plugins]
-[profiles]
-  [[default]]
-    cursor_color = "#aaaaaa"
-    scrollback_infinite = True

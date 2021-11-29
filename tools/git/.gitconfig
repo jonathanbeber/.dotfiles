@@ -4,7 +4,8 @@
 [user]
 	email = jonathanbeber@gmail.com
 	name = Jonathan Juares Beber
+	signingkey = C6CF8689918A3EF445AB48F141D3F4ACE4465751
 [core]
-	editor = vim
+	editor = codium --wait
 [diff]
 	noprefix = true

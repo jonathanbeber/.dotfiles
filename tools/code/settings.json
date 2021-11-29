@@ -1,7 +1,23 @@
 {
-    "editor.formatOnSave": true,
     "files.insertFinalNewline": true,
     "python.jediEnabled": false,
     "[python]": {},
-    "diffEditor.ignoreTrimWhitespace": true
+    "diffEditor.ignoreTrimWhitespace": true,
+    "go.useLanguageServer": true,
+    "explorer.confirmDelete": false,
+    "workbench.colorTheme": "Default Light+",
+    "window.menuBarVisibility": "default",
+    "breadcrumbs.enabled": true,
+    "rewrap.autoWrap.enabled": true,
+    "rewrap.wrappingColumn": 72,
+    "write-good.languages": [
+        "git-commit",
+        "markdown",
+        "plaintext"
+    ],
+    "write-good.only-lint-on-save": false,
+    "git.suggestSmartCommit": false,
+    "latex.server.autoDownload": true,
+    "go.toolsManagement.autoUpdate": true,
+    "texlab.server.autoDownload": true
 }

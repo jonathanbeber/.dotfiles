@@ -1,19 +1,22 @@
 [
     {
-        "key": "ctrl+alt+-",
-        "command": "-workbench.action.quickInputBack",
-        "when": "inQuickOpen"
+        "key": "ctrl+shift+x e",
+        "command": "workbench.view.extensions"
     },
     {
-        "key": "alt+left",
-        "command": "workbench.action.navigateBack"
+        "key": "ctrl+shift+x",
+        "command": "-workbench.view.extensions"
     },
     {
-        "key": "ctrl+alt+-",
-        "command": "-workbench.action.navigateBack"
+        "key": "ctrl+shift+x up",
+        "command": "workbench.action.terminal.resizePaneUp"
     },
     {
-        "key": "alt+left",
-        "command": "workbench.action.quickInputBack"
+        "key": "ctrl+shift+x down",
+        "command": "workbench.action.terminal.resizePaneDown"
+    },
+    {
+        "key": "ctrl+shift+x c",
+        "command": "workbench.action.closePanel"
     }
 ]
