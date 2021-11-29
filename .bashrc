@@ -17,7 +17,6 @@ export PATH="/home/jbeber/Code/go/bin:$PATH"
 
 setxkbmap -option compose:ralt
 xset dpms 600
-second_monitor
 
 export HISTSIZE=50000
 export HISTFILESIZE=100000

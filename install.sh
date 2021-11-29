@@ -12,6 +12,7 @@ test -d "${HOME}/Code/go" || mkdir "${HOME}/Code/go"
 
 # essentials
 sudo apt-get -y install \
+    curl \
     jq \
     python3 \
     python3-pip \
