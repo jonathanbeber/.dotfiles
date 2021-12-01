@@ -10,6 +10,9 @@ source .bashrc
 test -d "${HOME}/Code" || mkdir "${HOME}/Code"
 test -d "${HOME}/Code/go" || mkdir "${HOME}/Code/go"
 
+# upgrade
+sudo apt update && sudo apt upgrade -y
+
 # essentials
 sudo apt-get -y install \
     curl \
