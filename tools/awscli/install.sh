@@ -5,7 +5,7 @@ source utils.sh
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "/tmp/awscliv2.zip"
 unzip  -o /tmp/awscliv2.zip -d /tmp/
 if which aws; then
-    sudo /tmp/aws/install --upgrade
+    sudo /tmp/aws/install --update
 else
     sudo /tmp/aws/install
 fi
