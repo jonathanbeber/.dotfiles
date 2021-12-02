@@ -5,6 +5,7 @@ export PS1='\[\033[38;5;2m\]\w\[$(tput sgr0)\]\[\033[38;5;15m\]$(__git_ps1 "(%s)
 export GOPATH="${HOME}/Code/go"
 
 alias c="cd ${HOME}/Code"
+alias d="cd ${HOME}/.dotfiles"
 
 alias apt="sudo apt-get"
 
