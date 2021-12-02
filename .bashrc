@@ -83,3 +83,7 @@ kgpi(){
 kgdi(){
 	_kgoi kgd deploy $@
 }
+
+## asdf
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
