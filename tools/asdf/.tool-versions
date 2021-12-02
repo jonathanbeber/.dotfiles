@@ -3,3 +3,4 @@ golang 1.17.3
 kommander 2.1.0
 konvoy 1.8.3
 kubectl 1.22.4
+maws 0.1.8
