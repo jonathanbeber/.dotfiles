@@ -84,6 +84,8 @@ kgdi(){
 	_kgoi kgd deploy $@
 }
 
-## asdf
+# asdf
 . $HOME/.asdf/asdf.sh
 . $HOME/.asdf/completions/asdf.bash
+
+source <(kubectl completion bash)

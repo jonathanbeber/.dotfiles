@@ -36,4 +36,5 @@ bash tools/go/install.sh
 bash tools/terminator/install.sh
 bash tools/awscli/install.sh
 bash tools/docker/install.sh
+bash tools/kubectl/install.sh
 sudo snap install spotify
