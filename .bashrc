@@ -16,6 +16,8 @@ hostname | grep -qi zalando && alias k=zkubectl
 export PATH="/home/jbeber/Code/go/bin:$PATH"
 
 setxkbmap -option compose:ralt
+xrandr --output DP-0 --auto --right-of DP-2
+xrandr --output DP-1 --auto --right-of DP-2
 xset dpms 600
 
 export HISTSIZE=50000
