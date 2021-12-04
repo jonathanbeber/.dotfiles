@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export CARGO_NET_GIT_FETCH_WITH_CLI=true
+
 # rust
 bash <(curl https://sh.rustup.rs -sSf) -y
 
