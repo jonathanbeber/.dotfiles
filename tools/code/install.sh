@@ -16,7 +16,7 @@ sudo apt-get -y install codium
 codium --force --install-extension rust-lang.rust
 codium --force --install-extension ms-python.python
 codium --force --install-extension ms-vscode.go
-codium --force --install-extension travisthetechie.write-good-linter
+pip install proselint
 codium --force --install-extension patrykpeszko.vscode-proselint
 codium --force --install-extension valentjn.vscode-ltex
 
