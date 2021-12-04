@@ -9,3 +9,5 @@
 	editor = codium --wait
 [diff]
 	noprefix = true
+[url "git@github.com:"]
+    insteadOf = https://github.com/
