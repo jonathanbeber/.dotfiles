@@ -23,3 +23,4 @@ codium --force --install-extension valentjn.vscode-ltex
 # configs
 _ln "$(pwd)/tools/code/settings.json" "${HOME}/.config/VSCodium/User/settings.json"
 _ln "$(pwd)/tools/code/keybindings.json" "${HOME}/.config/VSCodium/User/keybindings.json"
+_ln "$(pwd)/tools/code/product.json" "${HOME}/.config/VSCodium/product.json"
