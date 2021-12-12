@@ -29,6 +29,7 @@ bash tools/git/install.sh
 bash tools/asdf/install.sh
 bash tools/code/install.sh
 bash tools/tex/install.sh
+bash tools/maxima/install.sh
 bash tools/i3/install.sh
 bash tools/rust/install.sh
 bash tools/python/install.sh
