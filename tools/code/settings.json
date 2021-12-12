@@ -6,6 +6,7 @@
     "files.insertFinalNewline": true,
     "git.suggestSmartCommit": false,
     "go.useLanguageServer": true,
+    "go.buildTags": "e2e",
     "grammarly.dialect": "british",
     "rewrap.autoWrap.enabled": true,
     "rewrap.wrappingColumn": 72,
