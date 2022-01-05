@@ -3,8 +3,13 @@
 asdf plugin add kubectl
 asdf install kubectl 1.22.4
 
+# clusterctl
 asdf plugin add clusterctl
 asdf install clusterctl 1.0.1
+
+# clusterawsadm
+asdf plugin-add clusterawsadm https://github.com/vespian/asdf-clusterawsadm.git
+asdf install clusterawsadm 1.2.0
 
 # kind
 asdf plugin-add kind
