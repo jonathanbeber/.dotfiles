@@ -38,4 +38,5 @@ bash tools/terminator/install.sh
 bash tools/awscli/install.sh
 bash tools/docker/install.sh
 bash tools/kubectl/install.sh
+bash tools/glow/install.sh
 sudo snap install spotify && sudo snap refresh spotify

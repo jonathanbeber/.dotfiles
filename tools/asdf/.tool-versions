@@ -1,9 +1,10 @@
 clusterctl 1.0.1
+cookiecutter 2.0.2
 dkp 2.1.1
+glow 1.4.1
 golang 1.17.3
 kind 0.11.1
 kommander 2.1.1
 konvoy 1.8.3
 kubectl 1.22.4
 maws 0.1.8
-cookiecutter 2.0.2
