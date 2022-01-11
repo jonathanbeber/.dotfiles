@@ -36,6 +36,7 @@ bash tools/python/install.sh
 bash tools/go/install.sh
 bash tools/terminator/install.sh
 bash tools/awscli/install.sh
+bash tools/gcloud/install.sh
 bash tools/docker/install.sh
 bash tools/kubectl/install.sh
 bash tools/glow/install.sh

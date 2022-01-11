@@ -14,3 +14,6 @@ fi
 # configs
 test -d "${HOME}/.aws" || mkdir -p $_
 _ln "$(pwd)/tools/awscli/config" "${HOME}/.aws/config"
+
+asdf plugin-add eksctl
+asdf install eksctl 0.77.0
