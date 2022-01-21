@@ -14,3 +14,7 @@ asdf install clusterawsadm 1.2.0
 # kind
 asdf plugin-add kind
 asdf install kind 0.11.1
+
+# helm
+asdf plugin-add helm
+asdf install helm 3.7.2

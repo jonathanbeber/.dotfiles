@@ -6,6 +6,7 @@ eksctl 0.77.0
 gcloud 367.0.0
 glow 1.4.1
 golang 1.17.3
+helm 3.7.2
 kind 0.11.1
 kommander 2.1.1
 konvoy 1.8.3
