@@ -40,4 +40,5 @@ bash tools/gcloud/install.sh
 bash tools/docker/install.sh
 bash tools/kubectl/install.sh
 bash tools/glow/install.sh
+bash tools/terraform/install.sh
 sudo snap install spotify && sudo snap refresh spotify
