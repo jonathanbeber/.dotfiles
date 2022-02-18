@@ -18,3 +18,7 @@ asdf install kind 0.11.1
 # helm
 asdf plugin-add helm
 asdf install helm 3.7.2
+
+# yq (?! too lazy to find a better place for that)
+asdf plugin-add yq
+asdf install yq 4.20.1
