@@ -9,16 +9,14 @@ alias d="cd ${HOME}/.dotfiles"
 
 alias apt="sudo apt-get"
 
-alias tkill="sudo killall -9 Telegram"
-
 alias k=kubectl
 hostname | grep -qi zalando && alias k=zkubectl
 
 export PATH="/home/jbeber/Code/go/bin:$PATH"
 
 setxkbmap -option compose:ralt
-xrandr --output DP-0 --auto --right-of DP-2
-xrandr --output DP-1 --auto --right-of DP-2
+xrandr --output DP-1 --auto --right-of eDP-1
+xrandr --output DP-2 --auto --right-of eDP-1
 xset dpms 600
 
 export HISTSIZE=50000
