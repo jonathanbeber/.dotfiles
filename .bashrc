@@ -17,7 +17,7 @@ export PATH="/home/jbeber/Code/go/bin:$PATH"
 setxkbmap -option compose:ralt
 xrandr --output DP-1 --auto --right-of eDP-1
 xrandr --output DP-2 --auto --right-of eDP-1
-xset dpms 600
+pgrep -f xfce4-power-manager 2>&1>/dev/null || $_
 
 export HISTSIZE=50000
 export HISTFILESIZE=100000
