@@ -12,6 +12,9 @@ git pull origin ${ASDF_VERSION}
 cd -
 
 # part of installation is contained in the .bashrc file
+source ~/.bashrc
 
 # Config
 _ln "$(pwd)/tools/asdf/.tool-versions" "${HOME}/.tool-versions"
+
+asdf install
