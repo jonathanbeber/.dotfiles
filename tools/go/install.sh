@@ -2,7 +2,7 @@
 
 # go itself
 sudo apt-get update
-sudo apt-get install golang-go
+sudo apt-get -y install golang-go
 
 # gopls
 go install golang.org/x/tools/gopls@latest
