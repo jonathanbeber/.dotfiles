@@ -31,7 +31,6 @@ bash tools/code/install.sh
 bash tools/tex/install.sh
 bash tools/maxima/install.sh
 bash tools/i3/install.sh
-bash tools/rust/install.sh
 bash tools/python/install.sh
 bash tools/go/install.sh
 bash tools/terminator/install.sh
