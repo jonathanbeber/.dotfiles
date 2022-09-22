@@ -3,8 +3,8 @@
 
 source utils.sh
 
-# main package
-sudo apt-get -y install i3 light redshift
+# main package and some tools
+sudo apt-get -y install i3 light redshift blueman
 
 sudo usermod -a -G video $USER
 sudo /bin/chgrp video /sys/class/backlight/intel_backlight/brightness
@@ -12,7 +12,7 @@ sudo /bin/chmod g+w /sys/class/backlight/intel_backlight/brightness
 
 xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/logind-handle-lid-switch -n -t bool -s true
 
-resolution=$(xrandr | grep '*' | awk '{ print $1 }')
+resolution=$(xrandr | grep '*' | awk '{ print $1 }'|head -n1)
 
 # configs
 test -d "${HOME}/.config/i3" || mkdir -p $_
