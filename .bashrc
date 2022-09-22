@@ -10,7 +10,6 @@ alias d="cd ${HOME}/.dotfiles"
 alias apt="sudo apt-get"
 
 alias k=kubectl
-hostname | grep -qi zalando && alias k=zkubectl
 
 export PATH="/home/jbeber/Code/go/bin:$PATH"
 
